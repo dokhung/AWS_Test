@@ -1,15 +1,15 @@
 spring:
-  profiles:
-    include: dev,local
-  #    active: dev
+#  profiles:
+#    include: dev,local
+#      active: dev
   application:
     name: demoElasticBeansTalk
 
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://alien.coffit.xyz:3306/coffitdb
-    username: coffit
-    password: coffit
+#    url: jdbc:mysql://alien.coffit.xyz:3306/coffitdb
+#    username: coffit
+#    password: coffit
 
   jpa:
     generate-ddl: false
